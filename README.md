@@ -4,7 +4,8 @@ Python bindings to the CSIRO vex file parser
 ### Installation
 
 ```bash
-cd pyvex
+git clone https://github.com/ICRAR/pyvex.git
+cd pyvex/pyvex
 python setup.py install
 ```
 
