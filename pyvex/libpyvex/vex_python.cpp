@@ -461,11 +461,11 @@ extern "C" {
     }
 
     double antenna_y(VexAntenna* ant) {
-        return ant->x;
+        return ant->y;
     }
 
     double antenna_z(VexAntenna* ant) {
-        return ant->x;
+        return ant->z;
     }
 
     double antenna_dx(VexAntenna* ant) {
