@@ -114,7 +114,7 @@ class Scan(Interval):
 
 
 _vex.subband_freq.restype = ctypes.c_double
-_vex.subband_freq.restype = ctypes.c_double
+_vex.subband_bandwidth.restype = ctypes.c_double
 _vex.subband_side_band.restype = ctypes.c_char
 _vex.subband_pol.restype = ctypes.c_char
 
