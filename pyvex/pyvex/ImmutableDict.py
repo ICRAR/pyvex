@@ -21,10 +21,8 @@
 #    MA 02111-1307  USA
 #
 
-from collections import Mapping
 
-
-class ImmutableDict(Mapping):
+class ImmutableDict(object):
 
     def __init__(self, data):
         self._data = data

@@ -177,7 +177,7 @@ class Channel(object):
         self.bbc_freq = _vex.channel_bbc_freq(obj)
         self.bbc_bandwidth = _vex.channel_bbc_bandwidth(obj)
         self.bbc_side_band = _vex.channel_bbc_side_band(obj)
-        self.name = _vex.channel_name(obj)
+        self.name = get_string(_vex.channel_name(obj))
         self.bbc_name = get_string(_vex.channel_bbc_name(obj))
         self.tones = get_array(obj,
                                count=_vex.channel_tone_count,
